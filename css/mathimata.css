@@ -1,0 +1,14 @@
+p{
+	color:green;
+	background:yellow;
+	font-family:tahoma;
+	font-size:30px;
+	font-weight:bold;
+	font-style:normal
+	letter-spacing:2px;
+	word-spacing:1px;
+	text-align:center;
+	padding:20px 30px;
+	margin:20;
+	border:3px solid red;
+}

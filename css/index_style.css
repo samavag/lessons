@@ -1,0 +1,143 @@
+header{
+	width:100%;
+	background-color:red;
+	height:80px;
+}
+p{
+	color:green;
+	background:yellow;
+	font-family:tahoma;
+	font-size:30px;
+	font-weight:bold;
+	font-style:normal
+	letter-spacing:2px;
+	word-spacing:1px;
+	text-align:center;
+	padding:20px 30px;
+	margin:20;
+	border:3px solid red;
+}
+nav{
+	width:100%;
+	background-color:green;
+	height:40px;
+}
+#mainmenu{
+	width:100%;
+	background-color:green;
+	height:510px;
+}
+#mainmenu ul{
+	list-style:none;
+}
+#mainmenu ul li{
+	float:left;
+	
+}
+#mainmenu ul li:hover ul{
+	visibility:visible;
+}
+#mainmenu ul li a{
+	text-decoration:none;
+	display:block;
+	color:black;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:pink;
+	padding:5px;
+	border:4px solid red;
+	border-radius:20px;
+}
+#mainmenu ul li a:hover{
+	color:pink;
+	background-color:black;
+	border:3px solid pink;
+}
+#mainmenu ul li ul li{
+	float:none;
+}
+#mainmenu ul li ul{
+	visibility:hidden;
+}
+main{
+	width:100%;
+	background-color:orange;
+	height:400px;
+}
+#box{
+	background-color:red;
+	width:100px;
+	height:100px;
+	float:left;
+	position:relative;
+	position:fixed;
+	left:108px;
+	top:158px;
+}
+#box1{
+	background-color:blue;
+	width:100px;
+	height:100px;
+	float:left;
+	position:relative;
+}
+footer{
+	width:100%;
+	background-color:yellow;
+	height:30px;
+}
+aside{
+	width:40%;
+	background-color:purple;
+	height:4 00px;
+	float:right;
+}
+#orizontio{
+	width:100%;
+	background-color:blue;
+	height:300px;
+}
+#xmm{
+	width:20%;
+	background-color:silver;
+	height:300px;
+	float:left;
+}
+#xmm2{
+	width:40%;
+	background-color:pink;
+	height:300px;
+	float:left;
+}
+#xmm3{
+	width:10%;
+	height:200px;
+	background-color:black;
+	float:left;
+}
+#xmm4{
+	width:10%;
+	height:200px;
+	background-color:#3a4;
+	float:left;
+}
+#wrapper{
+    width:20%;
+	background-color:silver;
+	padding:15px;
+}
+#mov{
+	width:50%;
+	height:50px;
+	background-color:purple;
+	float:left;
+}
+#galazio{
+	width:50%;
+	height:50px;
+	background-color:blue;
+	float:left;
+}
+.clearfix{
+	overflow:auto;
+}
